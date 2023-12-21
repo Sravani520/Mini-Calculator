@@ -11,12 +11,13 @@ body{
 }
 
 .Calculator{
-    background-color: rgb(35, 30, 134);
+    background-color: gainsboro;
     padding: 1em;
     margin: 70px auto;
     min-width: 100px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .display{
@@ -29,7 +30,7 @@ body{
     border-radius: 10px;
     color: black;
     display: flex;
-    background-color: rgb(221, 241, 221);
+    background-color: rgb(238, 240, 232);
 }
 
 .firstRow,
@@ -52,8 +53,8 @@ input{
     min-height: 3em;
     border-radius: 15px;
     cursor: pointer;
-    color: whitesmoke;
-    background-color: rgb(92, 92, 213);
+    color: hsl(0, 0%, 20%);
+    background-color: rgb(170, 170, 176);
 }
 
 input:hover{
@@ -71,15 +72,15 @@ input:active{
     border-radius: 15px;
     padding: 1em;
     width: 172px;
-    background-color: green;
+    background-color: rgb(90, 99, 221,0.7);
 }
 
 .AC,
 .Del{
-    background-color: #9b2d2d;
+    background-color: #ea9c9c;
 
 }
 
 .Symbols{
-    background-color:#FFDB58;
+    background-color:#e8ca5b;
 }
